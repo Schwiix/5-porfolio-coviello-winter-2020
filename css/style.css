@@ -1,0 +1,230 @@
+#header {
+		background-attachment: scroll,							scroll,					fixed;
+		background-image: url(../img/top-3200-copy.png), url(../img/static-resize.gif);
+		background-position: bottom center,					top left,				center center;
+		background-repeat: repeat-x,						repeat,					no-repeat;
+		background-size: 3200px 460px,					auto,					cover;
+		color: rgba(255, 255, 255, 0.8);
+		padding: 10em 0 20em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		#header:before, #header:after {
+			background: rgba(224, 224, 224, 0.75);
+			content: '';
+			left: 50%;
+			width: 1px;
+			z-index: 0;
+		}
+
+		#header:before {
+			height: calc(100% - 50px);
+			opacity: 0.15;
+			top: 0;
+		}
+
+		#header:after {
+			bottom: 0;
+			height: 50px;
+		}
+
+		#header a {
+			border-bottom-color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.8);
+		}
+
+			#header a:hover {
+				border-bottom-color: transparent;
+				color: #4eb980;
+			}
+
+		#header strong, #header p {
+			color: #4AF625;
+		}
+
+		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
+			color: #4AF625;
+		}
+
+		#header input[type="submit"],
+		#header input[type="reset"],
+		#header input[type="button"],
+		#header .button {
+			background: #ffffff;
+			color: #544d55;
+		}
+
+		#header .logo {
+			background-image: url(../img/logo%20gif%20copy.gif);
+			border-radius: 100%;
+			color: #ffffff;
+			cursor: default;
+			display: inline-block;
+			font-size: 2.25em;
+			height: 242px;
+			line-height: 2.35em;
+			margin: 0 0 0.75em 0;
+			text-align: center;
+			width: 245px;
+		}
+
+			#header .logo:before {
+				left: -0.075em;
+				position: relative;
+			}
+
+		#header h1 {
+            font-family: 'Press Start 2P';
+			font-size: 2.5em;
+			margin: 0;
+		}
+
+		#header p {
+            font-family: 'Press Start 2P';
+			font-size: 1.5em;
+			line-height: 1.5em;
+			margin: 0.25em 0 0 0;
+		}
+
+.about-me-title{
+    background-image: linear-gradient(#111, #fff);
+    font-family: 'Share Tech Mono';
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.about-me{
+    
+}
+
+.artwork-title{
+    background-image: linear-gradient(#469cff, #fff);
+    font-family: 'Share Tech Mono';
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.artwork{
+    
+}
+
+.game-title{
+    background-image: linear-gradient(#ff8000, #fff);
+    font-family: 'Share Tech Mono';
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.game{
+    
+}
+
+.animations-title{
+    background-image: linear-gradient(#ff0000, #fff);
+    font-family: 'Share Tech Mono';
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.animations{
+    
+}
+
+.contact-info-title{
+    background-image: linear-gradient(#0fc32b, #fff);
+    font-family: 'Share Tech Mono';
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.contact-info{
+    
+}
+
+/*responsive grid layout*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+  border: none;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: .75s;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    padding: 0 25px 5px 25px;
+    letter-spacing: .35px;
+    line-height: 1.8;
+    font-family: 'Share Tech Mono';
+}
+
+.topnav ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4AF625;
+    z-index: 1000;
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav li a {
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Share Tech Mono';
+    font-size: 24px;
+}
+
+/* selected link */
+.topnav a:active {
+  color: #fff;
+}
+
+/* mouse over link */
+.topnav a:hover {
+    color: #4AF625;
+    background-color: #fff;
+}
+
+/* visited link */
+.topnav a:visited {
+  color: #fff;
+}
+
+/* unvisited link */
+.topnav a:link {
+  color: #fff;
+}
